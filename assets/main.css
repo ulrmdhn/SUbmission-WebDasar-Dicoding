@@ -1,0 +1,107 @@
+body{
+    font-family: PT Sans Narrow;
+    margin: 0px;
+}
+
+header{
+    width: 100%;
+    background: #796D5D;
+    padding: 8px;
+}
+.judul{
+    margin: 0px;
+    color: white;
+    text-align: center;
+}
+.para{
+    color: white;
+    text-align: center;
+    margin: 0px;
+}
+.list{
+    list-style-type: none;
+    color: white;
+    display: flex;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    flex-direction: row;
+    width: auto;
+    justify-content: space-around;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+main{
+    padding: 16px;
+}
+
+aside{
+    padding: 16px;
+    background: #FFFFFF;
+    box-shadow: 1px 4px 8px rgba(97, 94, 89, 0.25);
+    border-radius: 16px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 25%;
+    float: right;
+}
+
+p.text{
+    text-align: center;
+    margin: 0px;
+}
+p.nama{
+    font-size: large;
+    font-weight: bold;
+    margin-top: 16px;
+}
+p.mail{
+    color: #7D7D7D;
+}
+
+.garis{
+    margin-top: 16px;
+    border: 1px solid #DEDFE4;
+}
+.foto{
+    text-align: center;
+}
+.avatar{
+    border-radius: 1000px;
+}
+.desc{
+    color: #7D7D7D;
+}
+.gambar{
+    margin-right: 16px;
+    width: 150px;
+    border-radius: 0px;
+}
+.artikel{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+
+div.container{
+    float: left;
+    width: 70%;
+}
+
+.foot{
+    text-align: center;
+    background-color: #DEDFE4;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+    
